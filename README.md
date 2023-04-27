@@ -29,5 +29,5 @@ The train_classifier function trains a classification model similar to train_seg
 make_prediction function loads and preprocesses an image from the test dataset for semantic segmentation and classification evaluation. It resizes the image and its corresponding mask, transposes the axes, and passes it through a segmentation model to obtain a predicted mask. The predicted mask is then thresholded and passed through a classification model to obtain predicted labels. The prepare_plot function from the utils_module is then called to create a plot for visualization purposes.
 
 
-Model_training Notebook:
+#### Model_training Notebook:
 It imports necessary modules and initializes a UNet segmentation model and a ResNet classification model. It trains the classification and segmentation models, plots their training progress, and tests them on a subset of the test dataset using the make_predictions function. The code follows a standard machine learning workflow of importing modules, initializing models, training, and testing.
